@@ -27,6 +27,8 @@ Windows
 - Launch at startup: MSI Afterburner (-30mV, -30% Power, 50°C → 15% Fan, 60°C → 100% Fan), LSFG (via Task Scheduler on workstation unlock) and Steam (""C:\Program Files (x86)\Steam\steam.exe" -silent" shortcut)
 
 
+
+
 Arch Linux
 - KDE Plasma (Disable KDE Wallet: ~./config/ -> open kwalletrc file -> set Enabled=false). Disable all desktop effects. Add --disable-pinch to all "Exec=" in brave-browser.desktop.
 - Insert these lines into etc/environment: PLASMA_USE_QT_SCALING=1, QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor, FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"

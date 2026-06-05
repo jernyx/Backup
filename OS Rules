@@ -1,0 +1,53 @@
+Android
+- Use Andoff (2h delay, Smart install protection, Disallow app-control and network reset, Lock default apps, Protect DNS, Basic protecion, Safe mode protection, Permit tightening, Turn on auto-revert and advanced mode)
+- Use NextDNS for DNS address
+- Use distraction free version of Instagram
+- Lock distracting apps with Bitwarden password (Immediate session elimination with logout, 20 second clipboard)
+- Night light, Do Not Disturb
+
+Windows
+- Clean Start Menu with cmd command: reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMorePrograms /t REG_DWORD /d 1 /f && taskkill /f /im explorer.exe && start explorer.exe
+- Disable virtualized Windows security (Memory integrity), Disable "Enhance pointer precision", Install AMD chipset and GPU drivers. First disable fast startup, than disable hibernation in CMD: powercfg -h off.
+- Create 32-bit DWORD named RealTimeIsUniversal in "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" and assign value 1. Reason: Sync Linux and Windows time.
+- Set password in Powershell (Set-LocalUser -Name "Username" -Password (ConvertTo-SecureString "Password" -AsPlainText -Force)
+- Lock apps:
+  - Group Policy:
+    1.) Computer Config → Windows Settings → Security Settings → Local Policies → Security Options → UAC: Behavior of the elevation prompt for administrators in Admin Approval Mode (Set to: Prompt for credentials)
+    2.) Computer Config → Windows Settings → Security Settings → Local Policies → Security Options → UAC: Admin Approval Mode for the Built-in Administrator account (Set to: Enabled)
+  - Add or Remove applications:
+    - Add: .exe program Compatibility → Change settings for all users → Run this program as an administrator
+    - Remove: Create New Task Scheduler Task → Check "Run with highest privileges → Actions: Run .exe program → Create a shortcut with target: C:\Windows\System32\schtasks.exe /run /tn "Task Scheduler Task Name"
+  - Set wallpaper with password 
+- Gaming optimizations: 
+  1.) AMD Adrenalin Software
+      - Graphics:
+        - Wait for Vertical Refresh: Always on
+      - Display Settings:
+        - Adaptive Sync Compatible: Disabled
+  2.) Lossless Scaling Frame Generation
+      - Frame Generation: 
+        - Type: LSFG 3.1 (or newer), Mode: Adaptive, Target: 165, Flow Scale: 75%, Performance Mode: Off
+      - Capture:
+        - Capture API: DXGI, Queue Target: 1
+      - Rendering: 
+        - Sync Mode: Off (Allow tearing), Max frame latency: 3, HDR support: Off, G-Sync support: Off, Draw FPS: On
+  3.) In-Game 
+      - Enable 165 FPS limit, if possible
+      - Enable upscaling, if needed (FSR / OptiScaler, etc.)
+- Prevent Windows from corruping GPU drivers:
+  - Group Policy:
+    1.) Computer Config → Administrative Templates → System → Device Install → Device Install Restrictions → Prevent install of devices that match any of these device IDs (Set to: Enabled, Show: Insert GPU ID's)    
+    2.) Computer Config → Administrative Templates → System → Device Install → Device Install Restrictions → Prevent installation of devices not described by other policy settings (Set to: Enabled)
+  - Find GPU Hardware ID's:
+    - Device Manager → Display Adapters → GPU → Properties → Details → Hardware ID's
+- Launch at startup: MSI Afterburner (-30mV, -30% Power, 50°C → 15% Fan, 60°C → 100% Fan), LSFG (via Task Scheduler on workstation unlock) and Steam (""C:\Program Files (x86)\Steam\steam.exe" -silent" shortcut)
+- Night Light (40%)
+
+Arch Linux
+- KDE Plasma (Disable KDE Wallet: ~./config/ -> open kwalletrc file -> set Enabled=false). Disable all desktop effects. Add --disable-pinch to all "Exec=" in brave-browser.desktop.
+- Insert these lines into etc/environment: PLASMA_USE_QT_SCALING=1, QT_SCALE_FACTOR_ROUNDING_POLICY=RoundPreferFloor, FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
+- Display settings: Display Scaling 125% (150% on Laptop), RGB Range: Full, Color Accuracy: Prefer color accuracy, Put to sleep: After 30 min
+- Font settings: 11pt except small 9pt, Anti-aliasing: Enable, Sub-Pixel rendering: RGB, Hinting: Full
+- Disable pointer acceleration. Touchpad: 0.6 speed and 2nd slowest scroll speed. Desktop mouse: -0.2 speed
+- Run in Konsole: timedatectl set-local-rtc 1 --adjust-system-clock. Reason: Sync Linux and Windows time.
+- Night Light (2600K)

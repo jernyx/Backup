@@ -1,0 +1,87 @@
+chatgpt.com###thread-bottom-container >  >
+chatgpt.com###page-header >  >  >
+chatgpt.com##[href="/images"]
+chatgpt.com##[class="block lg:hidden"]
+chatgpt.com##[class="hidden lg:block"]
+chatgpt.com###thread-bottom-container div div[class="pointer-events-auto"]
+chatgpt.com##[aria-label="Start voice mode"]
+chatgpt.com##p:has-text(ChatGPT can make mistakes. Check important info.)
+chatgpt.com##[aria-label="Dictate button"]
+chatgpt.com##div:has( > button[aria-label="Try a free upgrade"])
+chatgpt.com##[href="/apps"]
+chatgpt.com##[aria-label="Share"]
+chatgpt.com##div:has(> button[aria-label^="Dismiss"])
+chatgpt.com##[class="relative"] > aside
+chatgpt.com###thread-bottom-container > div:nth-of-type(3)
+chatgpt.com##[aria-label="Upgrade"]
+chatgpt.com##div:has(> [aria-label="Claim offer"])
+chatgpt.com###modal-beacon
+
+
+
+claude.ai##[href="/upgrade"]:upward(div)
+claude.ai##.downloads-link:upward(div)
+claude.ai##[role="note"][data-disclaimer="true"]:style(visibility: hidden !important)
+
+
+
+duckduckgo.com##.footer
+duckduckgo.com##[data-testid="feedback-prompt"]
+duckduckgo.com##[class*="related-searches"]
+duckduckgo.com##a[href*="?q="][href*="news"]
+duckduckgo.com##a[href*="?q="][href*="maps"]
+duckduckgo.com##[class*="text_promo"]
+duckduckgo.com##li:nth-of-type(6)
+duckduckgo.com##li[data-layout="images"]
+duckduckgo.com##li[data-layout="news"]
+duckduckgo.com##li[data-layout="videos"]
+duckduckgo.com##[class*="header--aside__item"]
+duckduckgo.com##[data-react-module-id="about"] > div > div > div:nth-of-type(2)
+duckduckgo.com##[data-testid="duckbar"] ul li:has([href*="news"])
+duckduckgo.com##[data-testid="duckbar"] ul li:has([href*="maps"])
+
+
+
+chess.com##.promo-toolbar-user-info
+chess.com##.promo-component
+chess.com##.navigation-footer-component
+chess.com##.toolbar-menu-area-right.toolbar-menu-area
+chess.com###tb > .toolbar-user-info > .home-user-info
+chess.com##.cc-text-medium.cc-user-rating-white
+chess.com##.country-flags-component.country-si.country-flags-small
+chess.com##.country-flags-component.country-am.country-flags-small
+chess.com##.player-component.player-bottom > .player-tagline > .player-game-over-component > .rating-score-component
+chess.com##.user-rating-component
+chess.com##.resizable-chat-area-component
+chess.com##.player-avatar
+chess.com##.league-badge-icon.league-badge-faded
+chess.com##.flair-rpc-component.flair-rpc-small
+chess.com##.country-flags-small
+chess.com##.cc-text-medium-bold.cc-user-username-component.cc-user-username-white
+chess.com##.games-grid-component.current-games-grid-view-games-grid
+chess.com##.cc-header.cc-wide
+chess.com##.home-container-component
+chess.com###vue-sidebar-instance
+chess.com##.profile-layout
+chess.com##.profile-header-tabs-component
+chess.com##.seeking-tagline-rating
+chess.com##.home-user-info
+chess.com##[data-cy="game-over-ad-container"]
+chess.com###board-layout-player-bottom .player-game-over-component
+chess.com##.toaster-controller-container
+chess.com##.cc-country-flag-small
+chess.com##.player-game-over-component
+chess.com###home-header
+chess.com###home-main
+chess.com###home-sidebar
+chess.com##.sidebar-free-trial-button
+
+
+
+lichess.org###notify-toggle
+lichess.org###challenge-toggle
+lichess.org##.lobby
+lichess.org##.keyboard-move
+lichess.org##.puzzle-play:not(:has(.result-false.current)) .puzzle__side
+lichess.org##[class="puzzle__session"]:style(display: none !important)
+lichess.org##bad[class="rp"]

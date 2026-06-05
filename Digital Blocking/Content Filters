@@ -160,6 +160,18 @@ youtube.com##ytd-channel-renderer
 
 
 
+reddit.com###left-sidebar-container
+reddit.com##[noun="top_nav_signup"]
+reddit.com###login-button
+reddit.com###expand-user-drawer-button
+reddit.com##[class*=legal-links]
+reddit.com##[data-post-click-location="join"]
+reddit.com##[data-testid="create-post"]
+reddit.com##[noun="right_rail_auth"]
+reddit.com###right-sidebar-container:has([aria-label="Related Posts Section"])
+
+
+
 discord.com##div[class*=clickable][class*=iconWrapper]:nth-of-type(4)
 discord.com##[class*="fixedDiscoveryIcon"][class*="circleIconButton"]
 discord.com##[class*="guildSeparator"]

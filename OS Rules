@@ -25,7 +25,7 @@ Windows
   - Find GPU Hardware ID's:
     - Device Manager → Display Adapters → GPU → Properties → Details → Hardware ID's
 - Launch at startup: MSI Afterburner (-30mV, -30% Power, 50°C → 15% Fan, 60°C → 100% Fan), LSFG (via Task Scheduler on workstation unlock) and Steam (""C:\Program Files (x86)\Steam\steam.exe" -silent" shortcut)
-- Night Light (40%)
+
 
 Arch Linux
 - KDE Plasma (Disable KDE Wallet: ~./config/ -> open kwalletrc file -> set Enabled=false). Disable all desktop effects. Add --disable-pinch to all "Exec=" in brave-browser.desktop.

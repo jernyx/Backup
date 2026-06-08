@@ -169,6 +169,7 @@ reddit.com##[data-post-click-location="join"]
 reddit.com##[data-testid="create-post"]
 reddit.com##[noun="right_rail_auth"]
 reddit.com###right-sidebar-container:has([aria-label="Related Posts Section"])
+reddit.com##div:has(shreddit-blurred-container[reason="nsfw"])
 
 
 

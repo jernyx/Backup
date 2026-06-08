@@ -18,12 +18,6 @@ Windows
   3.) In-Game 
       - Enable 165 FPS limit, if possible
       - Enable upscaling, if needed (FSR / OptiScaler, etc.)
-- Prevent Windows from corruping GPU drivers:
-  - Group Policy:
-    1.) Computer Config → Administrative Templates → System → Device Install → Device Install Restrictions → Prevent install of devices that match any of these device IDs (Set to: Enabled, Show: Insert GPU ID's)    
-    2.) Computer Config → Administrative Templates → System → Device Install → Device Install Restrictions → Prevent installation of devices not described by other policy settings (Set to: Enabled)
-  - Find GPU Hardware ID's:
-    - Device Manager → Display Adapters → GPU → Properties → Details → Hardware ID's
 - Launch at startup: MSI Afterburner (-30mV, -30% Power, 50°C → 15% Fan, 60°C → 100% Fan), LSFG (via Task Scheduler on workstation unlock) and Steam (""C:\Program Files (x86)\Steam\steam.exe" -silent" shortcut)
 
 

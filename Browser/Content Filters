@@ -302,6 +302,16 @@ lichess.org##bad[class="rp"]
 
 
 
+pinterest.com##[aria-label="Main"] > div:nth-of-type(2)
+pinterest.com##[data-test-id="login-button"]
+pinterest.com##[data-test-id="signup-button"]
+pinterest.com##[style*="opacity: 1; transform: translateY(0px); transition: opacity 300ms cubic-bezier(0.25, 0.375, 0.1, 0.975)"]
+pinterest.com##[data-test-id="fullPageSignupModal"]
+pinterest.com##body:style(overflow-y: auto !important; overflow-x: hidden !important;)
+pinterest.com##html:style(overflow-y: auto !important; overflow-x: hidden !important;)
+
+
+
 google.com##div[role="contentinfo"]
 google.com##[role="search"] button
 google.com##div:has(div > div > div > span:has-text(Videos))
@@ -357,7 +367,6 @@ google.com##[class*="adv-upsell"]
 
 instagram.com##a[href="/reels/"]
 instagram.com##a[href="/jernejstrukelj/followers/"]
-instagram.com##path[d="M20.656 17.008a9.993 9.993 0 1 0-3.59 3.615L22 22Z"]:style(stroke: none !important;)
 instagram.com##[href="/reels/?next="]
 instagram.com##span:has-text(followers):not(:has(*)):upward(2)
 instagram.com##[role="tablist"]:style(border-bottom-style:none!important;)
@@ -408,5 +417,6 @@ instagram.com##div[class*=html-div]:has(> div[role=button] > span[style="--x---b
 instagram.com##[style="max-width:630px;width:100%"] div[class*=html-div]:has(> div[role=button] > span[style="--x---base-line-clamp-line-height: 16px; --x-lineHeight: 16px;"])
 instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):upward(1)
 instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):upward(1):style(display: none !important;)
-instagram.com##main > div > div > div > div[style*="display"] span:has-text(See translation)
-instagram.com##div > section > main > div > div[style*="width"] span:has-text(See translation)
+instagram.com##div > section > main > div > div[style*="width"] article span
+instagram.com##div > section > main > div > div[style*="width"] article [aria-label="Verified"]
+instagram.com##div > section > main > div > div[style*="width"] article:style(padding-bottom: 30px !important;)

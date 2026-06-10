@@ -384,7 +384,7 @@ instagram.com##div > div > article > div > div > div > div > section > div > spa
 instagram.com##div > div > article > div > div > div > div > section > div > div
 instagram.com##section main div > div > div > div:nth-child(3) > div > div > div > article > div > div:nth-child(3) > div > div > div
 instagram.com##section > main[role="main"] > div > div > div > div:nth-child(3) > div > div > div > article > div:style(margin-bottom: -16px !important;)
-instagram.com##[data-pagelet="IGDChatTabsRootContent"]
+instagram.com##[data-pagelet*="IGDChatTab"]
 instagram.com##body > div > div > div > div[data-visualcompletion="ignore"] > div > div[role="button"]
 instagram.com##[role="presentation"][tabindex="-1"] > div > section > span:nth-of-type(2)
 instagram.com##body > div > div > div > div > div > div > div > div > div > section >  main > div > div > div > div > div > div > section > div > span:nth-of-type(2)

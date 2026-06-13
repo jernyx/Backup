@@ -423,5 +423,5 @@ instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):u
 instagram.com##div > section > main > div > div[style*="width"] article span
 instagram.com##div > section > main > div > div[style*="width"] article [aria-label="Verified"]
 instagram.com##div > section > main > div > div[style*="width"] article:style(padding-bottom: 30px !important;)
-instagram.com##h3:has-text(Suggested Posts)
-instagram.com##[aria-label="Loading..."]
+instagram.com##main:has([style*="width"] [role="tablist"] div:nth-of-type(1) [aria-selected="true"])
+instagram.com##span:has([aria-label="Home"])

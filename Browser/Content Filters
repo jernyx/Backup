@@ -360,9 +360,7 @@ google.com##[class*="adv-upsell"]
 
 
 
-instagram.com##a[href="/reels/"]
 instagram.com##a[href="/jernejstrukelj/followers/"]
-instagram.com##[href="/reels/?next="]
 instagram.com##span:has-text(followers):not(:has(*)):upward(2)
 instagram.com##[role="tablist"]:style(border-bottom-style:none!important;)
 instagram.com##section > main > div > div > div:style(margin-top:80px!important;)
@@ -418,3 +416,7 @@ instagram.com##div > section > main > div > div[style*="width"] article:style(pa
 instagram.com##main:has([style*="width"] [role="tablist"] div:nth-of-type(1) [aria-selected="true"])
 instagram.com##span:has([aria-label="Home"])
 instagram.com##main [style*="width"] [role="tablist"]
+instagram.com##div:has(> span [aria-label="Like"])
+instagram.com##div:has(> div > [aria-label="Repost"])
+instagram.com##*:style(scroll-snap-stop: none !important; scroll-snap-align: none !important;)
+instagram.com##div:has(> a[aria-label*=" reels"])

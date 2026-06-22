@@ -33,6 +33,8 @@
             "Absolute Terry Davis": 120,
             "Bind": 60,
             "Kevin Frasard": 15,
+            "Anton Petrov": 20,
+            "jacobjonesMONEY": 50,
         };
 
         const channelMinMinutes = {
@@ -52,13 +54,18 @@
             "Nightshift – Kurzgesagt After Dark": 5,
             "Kurzgesagt – In a Nutshell": 5,
             "Danit Friedman": 20,
+            "Anton Petrov": 16,
+            "jacobjonesMONEY": 45,
+            "Hyperborean Knowledge": 30
         };
 
         const channelBlockedKeywords = {
             "Channel 5 with Andrew Callaghan": ["5CAST"],
             "Sam Hyde": ["Sam Hyde"],
             "ElectroBOOM": ["ElectroVLOG"],
-            "The Onion": [", Episode"]
+            "The Onion": [", Episode"],
+            "jacobjonesMONEY": ["VLOG", "Vlog"],
+            "Quanta Magazine": ["PODCAST", "Podcast"]
         };
 
         const blockedCollabChannels = [

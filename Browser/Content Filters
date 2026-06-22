@@ -132,9 +132,6 @@ youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has-text(wat
 youtube.com##ytd-browse[page-subtype="home"] img
 youtube.com###video-preview
 youtube.com##[id="mouseover-overlay"]
-youtube.com##[page-subtype="channels"] [src*="i.ytimg.com"]
-youtube.com##.yt-spec-avatar-shape--avatar-size-extra-extra-large
-youtube.com##[class="ytDecoratedAvatarViewModelHost yt-page-header-view-model__page-header-headline-image"]
 youtube.com###contents ytd-rich-grid-media:has(#content path[d="M5.5 1.383V6.88a2.25 2.25 0 101 1.871V4.6l2.743 1.647a.5.5 0 00.757-.43V3.485a.5.5 0 00-.243-.429l-3.5-2.1a.5.5 0 00-.757.427Z"])
 youtube.com###contents ytd-rich-item-renderer:has(#content path[d="M5.5 1.383V6.88a2.25 2.25 0 101 1.871V4.6l2.743 1.647a.5.5 0 00.757-.43V3.485a.5.5 0 00-.243-.429l-3.5-2.1a.5.5 0 00-.757.427Z"])
 youtube.com###contents ytd-rich-item-renderer:has-text("Upcoming")

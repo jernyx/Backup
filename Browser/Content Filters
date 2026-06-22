@@ -154,6 +154,7 @@ youtube.com##.ytLockupViewModelContentImage
 youtube.com##ytd-rich-item-renderer:has(h3[title="My Mix"])
 youtube.com##ytd-rich-item-renderer:has-text(Premieres )
 youtube.com##ytd-channel-renderer
+youtube.com##[page-subtype="search"] #channel-thumbnail
 
 
 

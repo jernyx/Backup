@@ -295,6 +295,7 @@ lichess.org##[class="puzzle__session"]:style(display: none !important)
 lichess.org##bad[class="rp"]
 lichess.org##.puzzle__side__user__rating:not(:hover):style(color: transparent !important;)
 lichess.org##.puzzle__side__user__rating:not(:hover):style(opacity: 0 !important;)
+lichess.org##.friend_box
 
 
 

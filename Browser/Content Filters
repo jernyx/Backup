@@ -419,3 +419,4 @@ instagram.com##main:has([style*="width"] [role="tablist"] div:nth-of-type(1) [ar
 instagram.com##span:has([aria-label="Home"])
 instagram.com##main [style*="width"] [role="tablist"]
 instagram.com##a[href="/reels/"]
+instagram.com##[data-pagelet*="IGDChat"]

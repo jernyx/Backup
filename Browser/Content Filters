@@ -299,6 +299,18 @@ lichess.org###friend_box
 
 
 
+pinterest.com##[aria-label="Main"] > div:nth-of-type(2)
+pinterest.com##[data-test-id="login-button"]
+pinterest.com##[data-test-id="signup-button"]
+pinterest.com##[style*="opacity: 1; transform: translateY(0px); transition: opacity 300ms cubic-bezier(0.25, 0.375, 0.1, 0.975)"]
+pinterest.com##[data-test-id="fullPageSignupModal"]
+pinterest.com##body:style(overflow-y: auto !important; overflow-x: hidden !important;)
+pinterest.com##html:style(overflow-y: auto !important; overflow-x: hidden !important;)
+pinterest.com##[aria-label="Main"] > div:nth-of-type(3)
+pinterest.com##[data-test-id="pin-domain-link"]
+
+
+
 google.com##div[role="contentinfo"]
 google.com##[role="search"] button
 google.com##div:has(div > div > div > span:has-text(Videos))

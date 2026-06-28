@@ -266,6 +266,7 @@ claude.ai##[href="/upgrade"]:upward(div)
 claude.ai##.downloads-link:upward(div)
 claude.ai##[role="note"][data-disclaimer="true"]:style(visibility: hidden !important)
 claude.ai##fieldset > div[data-alert-band-wrapper="true"]
+claude.ai##div:has(> ul [aria-label="Design"])
 
 
 

@@ -2,15 +2,7 @@ Windows
 - Clean Start Menu with cmd command: reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMorePrograms /t REG_DWORD /d 1 /f && taskkill /f /im explorer.exe && start explorer.exe
 - Disable virtualized Windows security (Memory integrity), Disable "Enhance pointer precision", Install AMD chipset and GPU drivers. First disable fast startup, than disable hibernation in CMD: powercfg -h off.
 - Create 32-bit DWORD named RealTimeIsUniversal in "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" and assign value 1. Reason: Sync Linux and Windows time.
-- Set password in Powershell (Set-LocalUser -Name "Username" -Password (ConvertTo-SecureString "Password" -AsPlainText -Force)
-- Lock apps:
-  - Group Policy:
-    1.) Computer Config → Windows Settings → Security Settings → Local Policies → Security Options → UAC: Behavior of the elevation prompt for administrators in Admin Approval Mode (Set to: Prompt for credentials)
-    2.) Computer Config → Windows Settings → Security Settings → Local Policies → Security Options → UAC: Admin Approval Mode for the Built-in Administrator account (Set to: Enabled)
-  - Add or Remove applications:
-    - Add: .exe program Compatibility → Change settings for all users → Run this program as an administrator
-    - Remove: Create New Task Scheduler Task → Check "Run with highest privileges → Actions: Run .exe program → Create a shortcut with target: C:\Windows\System32\schtasks.exe /run /tn "Task Scheduler Task Name"
-  - Set wallpaper with password 
+- Set password in Powershell (Set-LocalUser -Name "Username" -Password (ConvertTo-SecureString "Password" -AsPlainText -Force) 
 - Gaming optimizations: 
   1.) AMD Adrenalin Software
       - Graphics:

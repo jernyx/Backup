@@ -270,6 +270,14 @@ claude.ai##div:has(> ul [aria-label="Design"])
 
 
 
+spotify.com##[href="/download"]
+spotify.com##[data-testid="footer-div"]
+spotify.com###main-view [aria-label="Jernej"]
+spotify.com###main-view ~ div:has([aria-label="Now playing view"])
+spotify.com###main-view ~ div:has([aria-label="Current device"])
+
+
+
 duckduckgo.com##.footer
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##[class*="related-searches"]

@@ -239,6 +239,8 @@ spotify.com##[data-testid="footer-div"]
 spotify.com###main-view [aria-label="Jernej"]
 spotify.com###main-view ~ div:has([aria-label="Now playing view"])
 spotify.com###main-view ~ div:has([aria-label="Current device"])
+spotify.com##[data-testid="home-banner"]:has(> [data-testid="premium-banner"]) 
+spotify.com##a:has(> svg path[d*="M14.5 2.134a1"])
 
 
 

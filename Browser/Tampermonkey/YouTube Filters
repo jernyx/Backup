@@ -78,7 +78,6 @@
             "BBC Earth",
             "BBC Earth Relax",
             "Astrum",
-            "InfoWars",
             "Sam Hyde",
             "Absolute Terry Davis",
             "Coffeezilla",
@@ -87,7 +86,10 @@
             "Channel 5 with Andrew Callaghan",
             "Gates of Imagination",
             "Folding Ideas",
-            "The Tim Dillon Show"
+            "The Tim Dillon Show",
+            "Mighty",
+            "The Onion",
+            "After Skool"
         ];
 
         const channelThumbnailOverrides = {

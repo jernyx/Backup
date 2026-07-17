@@ -6,6 +6,8 @@
 // @author       You
 // @match        *://*.youtube.com/*
 // @grant        none
+// @updateURL    https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Tampermonkey/YouTube%20Filters.js
+// @downloadURL  https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Tampermonkey/YouTube%20Filters.js
 // ==/UserScript==
 
 (function () {

@@ -367,12 +367,7 @@ google.com##[class*="adv-upsell"]
 
 
 
-instagram.com##a[href="/jernejstrukelj/followers/"]
-instagram.com##footer
-instagram.com##[href*="/your_activity"]
-instagram.com##div:has(> [aria-label="Repost"])
-instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):upward(1)
-instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):upward(1):style(display: none !important;)
+
 instagram.com##div > section > main > div > div[style*="width"] article span
 instagram.com##div > section > main > div > div[style*="width"] article [aria-label="Verified"]
 instagram.com##div > section > main > div > div[style*="width"] article:style(padding-bottom: 30px !important;)

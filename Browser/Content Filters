@@ -388,6 +388,7 @@ instagram.com##div[style*="max-width:630px"][style*="width:100%"] + div[class]
 instagram.com##div[style*="max-width: 630px; width: 100%;"] + div[class]
 instagram.com##[data-pagelet="story_tray"]
 instagram.com##[style="max-width:630px;width:100%"] article > div > div:has([aria-label="Save"])
+instagram.com##[style*="max-width: 630px] article > div > div:has([aria-label="Save"])
 instagram.com##[role="tablist"]:has-text("Not personalized")
 instagram.com##div > a:has([aria-label="Also from Meta"])
 instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] div:has-text(Your note)

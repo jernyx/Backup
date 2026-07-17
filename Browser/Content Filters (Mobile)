@@ -85,6 +85,12 @@ chatgpt.com##div:has(> [aria-label="Claim offer"])
 
 
 
+pinterest.com##[role="dialog"]
+pinterest.com##body:style(overflow: auto !important)
+pinterest.com##body:style(touch-action: auto !important)
+
+
+
 claude.ai##[href="/upgrade"]:upward(div)
 claude.ai##.downloads-link:upward(div)
 claude.ai##[role="note"][data-disclaimer="true"]:style(visibility: hidden !important)
@@ -100,9 +106,3 @@ spotify.com###main-view ~ div:has([aria-label="Now playing view"])
 spotify.com###main-view ~ div:has([aria-label="Current device"])
 spotify.com##[data-testid="home-banner"]:has(> [data-testid="premium-banner"]) 
 spotify.com##a:has(> svg path[d*="M14.5 2.134a1"])
-
-
-
-pinterest.com##[role="dialog"]
-pinterest.com##body:style(overflow: auto !important)
-pinterest.com##body:style(touch-action: auto !important)

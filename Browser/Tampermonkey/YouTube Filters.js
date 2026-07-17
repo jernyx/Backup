@@ -22,7 +22,6 @@
          * CONFIGURATION
          *************************************************************/
         const channelMaxMinutes = {
-            "H3 Podcast": 60,
             "Trent The Traveler": 30,
             "HealthyGamerGG": 45,
             "MrBeast": 30,

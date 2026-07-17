@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Filters
 // @namespace    http://tampermonkey.net/
-// @version      5.0
+// @version      5.1
 // @description  Combines subscription filters and metadata duration injection into a single script.
 // @author       You
 // @match        *://*.youtube.com/*

@@ -143,36 +143,7 @@ youtube.com###contents ytd-rich-item-renderer:has-text("LIVE")
 youtube.com##ytd-rich-item-renderer:has(div[class="yt-icon-shape ytSpecIconShapeHost"])
 youtube.com##[aria-label="Join this channel"]:upward(2)
 youtube.com##[aria-label="Community"]:upward(2)
-youtube.com###columns #secondaryinstagram.com##a[href="/jernejstrukelj/followers/"]
-instagram.com##footer
-instagram.com##[href*="/your_activity"]
-instagram.com##div:has(> [aria-label="Repost"])
-instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):upward(1)
-instagram.com##span:has-text(Jernej Štrukelj):upward(2) a:has-text(followers):upward(1):style(display: none !important;)
-instagram.com##div > section > main > div > div[style*="width"] article span
-instagram.com##div > section > main > div > div[style*="width"] article [aria-label="Verified"]
-instagram.com##div > section > main > div > div[style*="width"] article:style(padding-bottom: 30px !important;)
-instagram.com##main:has([style*="width"] [role="tablist"] div:nth-of-type(1) [aria-selected="true"])
-instagram.com##main [style*="width"] [role="tablist"]
-instagram.com##[style*="igd-chat"]
-instagram.com##div:has(> span [aria-label="Like"][height="24"])
-instagram.com##div:has(> div > [aria-label="Repost"])
-instagram.com##*:style(scroll-snap-stop: none !important; scroll-snap-align: none !important;)
-instagram.com##div:has(> a[aria-label*=" reels"])
-instagram.com##[href="/reels/"]
-instagram.com##div[style*="max-width:630px"][style*="width:100%"] + div[class]
-instagram.com##div[style*="max-width: 630px; width: 100%;"] + div[class]
-instagram.com##[data-pagelet="story_tray"]
-instagram.com##article > div > div:has([aria-label="Save"])
-instagram.com##[role="tablist"]:has-text("Not personalized")
-instagram.com##div > a:has([aria-label="Also from Meta"])
-instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] div:has-text(Your note)
-instagram.com##section:has-text("Liked by")
-instagram.com##div[style*="max-width: 673px"] ~ div
-instagram.com##div:has( > [aria-label="Notifications"]) + div
-instagram.com##h4:has-text(Suggested for you):upward(3)
-instagram.com##[style="display: flex; flex-direction: column; padding-bottom: 0px; padding-top: 0px; position: relative;"]:has([aria-label="Clip"]):upward(3)
-instagram.com##hr
+youtube.com###columns #secondary
 youtube.com###above-the-fold [aria-label*="Current setting is"]
 youtube.com###footer
 youtube.com##[aria-label="Thanks"]
@@ -416,8 +387,7 @@ instagram.com##[href="/reels/"]
 instagram.com##div[style*="max-width:630px"][style*="width:100%"] + div[class]
 instagram.com##div[style*="max-width: 630px; width: 100%;"] + div[class]
 instagram.com##[data-pagelet="story_tray"]
-instagram.com##div[style*="max-width:630px"] article > div > div:has([aria-label="Save"])
-instagram.com##div[style="max-width: 630px; width: 100%;"] article > div > div:has([aria-label="Save"])
+instagram.com##article > div > div:has([aria-label="Save"])
 instagram.com##[role="tablist"]:has-text("Not personalized")
 instagram.com##div > a:has([aria-label="Also from Meta"])
 instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] div:has-text(Your note)
@@ -425,5 +395,5 @@ instagram.com##section:has-text("Liked by")
 instagram.com##div[style*="max-width: 673px"] ~ div
 instagram.com##div:has( > [aria-label="Notifications"]) + div
 instagram.com##h4:has-text(Suggested for you):upward(3)
-instagram.com##div[dir="auto"]:has-text(More posts from):upward(2)
+instagram.com##[style="display: flex; flex-direction: column; padding-bottom: 0px; padding-top: 0px; position: relative;"]:has([aria-label="Clip"]):upward(3)
 instagram.com##hr

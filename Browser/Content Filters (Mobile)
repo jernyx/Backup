@@ -1,3 +1,5 @@
+!https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Content%20Filters%20(Mobile)
+
 duckduckgo.com##.footer
 duckduckgo.com##[data-testid="feedback-prompt"]
 duckduckgo.com##[class*="related-searches"]

@@ -51,6 +51,8 @@ chess.com###home-header
 chess.com###home-main
 chess.com###home-sidebar
 chess.com##.sidebar-free-trial-button
+chess.com##.game-over-modal-header-inner
+chess.com##.game-over-stats-component
 
 
 

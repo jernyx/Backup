@@ -7,8 +7,8 @@
 // @match        https://www.instagram.com/*
 // @run-at       document-start
 // @grant        none
-// @updateURL    https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Tampermonkey/YouTube%20Filters.js
-// @downloadURL  https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Tampermonkey/YouTube%20Filters.js
+// @updateURL    https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Tampermonkey/Website%20Shortcuts.js
+// @downloadURL  https://github.com/jernyx/Backup/raw/refs/heads/main/Browser/Tampermonkey/Website%20Shortcuts.js
 // ==/UserScript==
 (function () {
     'use strict';

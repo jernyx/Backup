@@ -112,3 +112,20 @@ spotify.com###main-view ~ div:has([aria-label="Now playing view"])
 spotify.com###main-view ~ div:has([aria-label="Current device"])
 spotify.com##[data-testid="home-banner"]:has(> [data-testid="premium-banner"]) 
 spotify.com##a:has(> svg path[d*="M14.5 2.134a1"])
+
+
+
+instagram.com##[data-pagelet="story_tray"]
+instagram.com##div:has(> div > svg > [d="M21 11h-8V3a1 1 0 1 0-2 0v8H3a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0v-8h8a1 1 0 1 0 0-2Z"])
+instagram.com##[style="max-width:min(470, 100%);width:100%"]
+instagram.com##span:has-text(For you):upward(4)
+instagram.com##[href="/reels/"]
+instagram.com##[style="display: flex; flex-direction: column; padding-bottom: 0px; padding-top: 0px; position: relative;"]
+instagram.com##[aria-label="Loading..."]
+instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] > div:has-text(Your note)
+instagram.com##[aria-label="Like"]
+instagram.com##[aria-label="Repost"]
+instagram.com##span:has-text(Liked by)
+instagram.com##div:has(> span [aria-label="Like"][height="24"])
+instagram.com##div:has(> div > [aria-label="Repost"])
+instagram.com##span:has-text(Likes)

@@ -129,3 +129,5 @@ instagram.com##span:has-text(Liked by)
 instagram.com##div:has(> span [aria-label="Like"][height="24"])
 instagram.com##div:has(> div > [aria-label="Repost"])
 instagram.com##span:has-text(Likes)
+instagram.com##div[role=button]:has-text(Note...)
+instagram.com##a[href="/jernejstrukelj/followers/"]

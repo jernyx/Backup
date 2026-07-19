@@ -92,12 +92,6 @@ chatgpt.com##div:has(> [aria-label="Claim offer"])
 
 
 
-pinterest.com##[role="dialog"]
-pinterest.com##body:style(overflow: auto !important)
-pinterest.com##body:style(touch-action: auto !important)
-
-
-
 claude.ai##[href="/upgrade"]:upward(div)
 claude.ai##.downloads-link:upward(div)
 claude.ai##[role="note"][data-disclaimer="true"]:style(visibility: hidden !important)
@@ -106,28 +100,20 @@ claude.ai##div:has(> ul [aria-label="Design"])
 
 
 
-spotify.com##[href="/download"]
-spotify.com##[data-testid="footer-div"]
-spotify.com###main-view ~ div:has([aria-label="Now playing view"])
-spotify.com###main-view ~ div:has([aria-label="Current device"])
-spotify.com##[data-testid="home-banner"]:has(> [data-testid="premium-banner"]) 
-spotify.com##a:has(> svg path[d*="M14.5 2.134a1"])
-
-
-
-instagram.com##[data-pagelet="story_tray"]
-instagram.com##div:has(> div > svg > [d="M21 11h-8V3a1 1 0 1 0-2 0v8H3a1 1 0 1 0 0 2h8v8a1 1 0 1 0 2 0v-8h8a1 1 0 1 0 0-2Z"])
-instagram.com##[style="max-width:min(470, 100%);width:100%"]
-instagram.com##span:has-text(For you):upward(4)
-instagram.com##[href="/reels/"]
-instagram.com##[style="display: flex; flex-direction: column; padding-bottom: 0px; padding-top: 0px; position: relative;"]
-instagram.com##[aria-label="Loading..."]
-instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] > div:has-text(Your note)
-instagram.com##[aria-label="Like"]
-instagram.com##[aria-label="Repost"]
-instagram.com##span:has-text(Liked by)
-instagram.com##div:has(> span [aria-label="Like"][height="24"])
-instagram.com##div:has(> div > [aria-label="Repost"])
-instagram.com##span:has-text(Likes)
-instagram.com##div[role=button]:has-text(Note...)
+instagram.com##[data-visualcompletion="ignore-dynamic"] a[href*="/reels/"]
+instagram.com##[aria-haspopup="menu"]
+instagram.com##[href="/explore/people/"]
 instagram.com##a[href="/jernejstrukelj/followers/"]
+instagram.com##a[href*="threads.com"]
+instagram.com##[style*="height: auto; overflow: hidden auto;"]
+instagram.com##[aria-label="Like"]
+instagram.com##[aria-label="Unlike"]
+instagram.com##div:has(> div > svg[aria-label="Repost"])
+instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] > div:nth-of-type(1)
+instagram.com##[href*="/your_activity/interactions"]
+instagram.com##div:has(> svg[aria-label="Notifications"]) + div
+instagram.com##[role="tablist"]
+instagram.com##[style*="display: flex; flex-direction: column; padding-bottom: 0px; padding-top: 0px; position: relative;"]
+instagram.com##div:has(> [style="--x-height: 230px;"] div[role="presentation"] ul > li)
+instagram.com##div:has(> div[data-visualcompletion="ignore"] div[style="--x-width: 100%;"] svg[aria-label="Close"])
+instagram.com##video

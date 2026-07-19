@@ -90,7 +90,9 @@
             "The Tim Dillon Show",
             "Mighty",
             "The Onion",
-            "After Skool"
+            "After Skool",
+            "Infowars",
+            "PBS Eons"
         ];
 
         const channelThumbnailOverrides = {

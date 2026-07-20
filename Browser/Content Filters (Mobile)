@@ -108,6 +108,12 @@ spotify.com##[data-testid="home-banner"]:has(> [data-testid="premium-banner"])
 
 
 
+pinterest.com##[role="dialog"]
+pinterest.com##body:style(overflow: auto !important)
+pinterest.com##body:style(touch-action: auto !important)
+
+
+
 instagram.com##[data-visualcompletion="ignore-dynamic"] a[href*="/reels/"]
 instagram.com##[aria-haspopup="menu"]
 instagram.com##[href="/explore/people/"]

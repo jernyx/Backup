@@ -100,6 +100,14 @@ claude.ai##div:has(> ul [aria-label="Design"])
 
 
 
+spotify.com##[href="/download"]
+spotify.com##[data-testid="footer-div"]
+spotify.com###main-view ~ div:has([aria-label="Now playing view"])
+spotify.com###main-view ~ div:has([aria-label="Current device"])
+spotify.com##[data-testid="home-banner"]:has(> [data-testid="premium-banner"]) 
+
+
+
 instagram.com##[data-visualcompletion="ignore-dynamic"] a[href*="/reels/"]
 instagram.com##[aria-haspopup="menu"]
 instagram.com##[href="/explore/people/"]

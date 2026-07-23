@@ -402,3 +402,4 @@ instagram.com##h4:has-text(Suggested for you):upward(3)
 instagram.com##div[dir="auto"]:has-text(More posts from):upward(2)
 instagram.com##hr
 instagram.com##div[role=button]:has-text(Note...)
+instagram.com##div:has(> div video):style(overflow: hidden !important; touch-action: none !important;)

@@ -404,3 +404,5 @@ instagram.com##hr
 instagram.com##div[role=button]:has-text(Note...)
 instagram.com##div:has([aria-label="Reels navigation controls"]) div:has(> div video):style(overflow: hidden !important; touch-action: none !important;)
 instagram.com##[aria-label="Reels navigation controls"]
+instagram.com##span:has([style="height: 18px; width: 18px;"])
+instagram.com##section:has(span[style*="height: 18px"])

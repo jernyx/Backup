@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Filters
 // @namespace    http://tampermonkey.net/
-// @version      5.2
+// @version      5.3
 // @description  Combines subscription filters and metadata duration injection into a single script.
 // @author       You
 // @match        *://*.youtube.com/*
@@ -66,7 +66,7 @@
             "ElectroBOOM": ["ElectroVLOG"],
             "The Onion": [", Episode"],
             "jacobjonesMONEY": ["VLOG", "Vlog"],
-            "Quanta Magazine": ["PODCAST", "Podcast"]
+            "Quanta Magazine": ["PODCAST", "Podcast"],
         };
 
         const blockedCollabChannels = [
@@ -92,6 +92,7 @@
             "The Onion",
             "After Skool",
             "Infowars",
+            "THE MMA GURU",
             "PBS Eons"
         ];
 
@@ -178,14 +179,18 @@
             return null;
         }
 
+        // FIX: explicitly grab the byline row (first .ytContentMetadataViewModelMetadataRow),
+        // never let querySelector fall through to the stats row ("7:38 • 36K views • 2 days ago"),
+        // which shares the same class and never contains "more".
         function isBlockedCollab(item) {
-            const meta = item.querySelector('.ytLockupMetadataViewModelMetadata, .ytContentMetadataViewModelMetadataRow, #metadata, .yt-lockup-metadata-view-model__metadata, .yt-lockup-view-model__metadata');
-            if (!meta) return false;
+            const metaRows = item.querySelectorAll('.ytLockupMetadataViewModelMetadata .ytContentMetadataViewModelMetadataRow, .ytContentMetadataViewModelMetadataRow, #metadata, .yt-lockup-metadata-view-model__metadata, .yt-lockup-view-model__metadata');
+            if (!metaRows.length) return false;
 
-            const t = normalize(meta.textContent);
+            // The byline row (channel name + "and N more") is always the first metadata row.
+            const bylineRow = metaRows[0];
+            const t = normalize(bylineRow.textContent);
             const mainChannel = normalize(getChannelName(item));
-
-            const channelLinks = meta.querySelectorAll('a[href^="/@"], a[href^="/channel/"], a[href*="/c/"]');
+            const channelLinks = bylineRow.querySelectorAll('a[href^="/@"], a[href^="/channel/"], a[href*="/c/"]');
 
             return blockedCollabChannels.some(c => {
                 const n = normalize(c);

@@ -395,7 +395,7 @@ instagram.com##[style="max-width: 630px; width: 100%;"] article > div > div:has(
 instagram.com##[role="tablist"]:has-text("Not personalized")
 instagram.com##div > a:has([aria-label="Also from Meta"])
 instagram.com##[data-pagelet="IGDInboxThreadListScrollableAreaPagelet"] div:has-text(Your note)
-instagram.com##section:has-text("Liked by")
+instagram.com##article div[role="presentation"] section:has-text("Liked by")
 instagram.com##div[style*="max-width: 673px"] ~ div
 instagram.com##div:has( > [aria-label="Notifications"]) + div
 instagram.com##h4:has-text(Suggested for you):upward(3)

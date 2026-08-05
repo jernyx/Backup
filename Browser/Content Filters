@@ -261,6 +261,11 @@ duckduckgo.com##[class*="header--aside__item"]
 duckduckgo.com##[data-react-module-id="about"] > div > div > div:nth-of-type(2)
 duckduckgo.com##[data-testid="duckbar"] ul li:has([href*="news"])
 duckduckgo.com##[data-testid="duckbar"] ul li:has([href*="maps"])
+duckduckgo.com##aside > div > div > div > div > a[href*="reddit.com"]
+duckduckgo.com##figcaption > a[href*="reddit.com"]
+duckduckgo.com##img[alt*=" : r/"]
+duckduckgo.com##img[alt*="Pin "]
+duckduckgo.com##img[alt*="Scrolller"]
 
 
 

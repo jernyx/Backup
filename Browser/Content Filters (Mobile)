@@ -112,9 +112,27 @@ spotify.com###global-nav-bar > div:style(zoom:1.2 !important)
 
 
 
-pinterest.com##[role="dialog"]
-pinterest.com##body:style(overflow: auto !important)
-pinterest.com##body:style(touch-action: auto !important)
+discord.com##div[class*=clickable][class*=iconWrapper]:nth-of-type(4)
+discord.com##[class*="fixedDiscoveryIcon"][class*="circleIconButton"]
+discord.com##[class*="guildSeparator"]
+discord.com##[class*="scrollerBase"][class*="none"][class*="scroller"] > div[class*="listItem"] > [class*="listItemWrapper"] > [class*="wrapper"] > [class*="wrapperSimple"] > [class*="svg"] > [class*="foreignObject"] > [class*="circleIconButton"]
+discord.com##[class*="subtext"]
+discord.com##[class*="nowPlayingColumn"]
+discord.com##[class*="activity"][class*="card"][class*="biteSize"][class*="overlay"]
+discord.com##[class*="subText"]
+discord.com##[class*="scrollerBase"][class*="none"][class*="scroller" > div[class*="listItem"] > [class*="listItemWrapper"]
+discord.com##[class*="discoveryIcon"][class*="circleIconButton"]
+discord.com##div[class*="clickable"][class*="iconWrapper"]:nth-of-type(4)
+discord.com##[class*="scrollerBase"][class*="none"][class*="scroller"] > div[class*="listItem"]
+discord.com##[class*="footer"] > [class*="listItem" > [class*="listItemWrapper"]
+discord.com##[class*="nowPlayingColumn"]
+discord.com##[class*="textSm"][class*="container]
+discord.com##[aria-label="Show Member List"]
+discord.com##div[class*="listItem"]:has([aria-label="Download Apps"])
+discord.com##div[class*="listItem"]:has([aria-label="Discover"])
+discord.com##div[id*="popout"] > div[data-mana-component*="popover"]
+discord.com##body:style(zoom:1.2 !important)
+discord.com##html:style(font-size:150% !important)
 
 
 

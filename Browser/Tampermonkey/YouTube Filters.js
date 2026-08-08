@@ -36,6 +36,7 @@
             "Kevin Frasard": 15,
             "Anton Petrov": 20,
             "jacobjonesMONEY": 50,
+            "Hafthor Bjornsson": 60,
         };
 
         const channelMinMinutes = {

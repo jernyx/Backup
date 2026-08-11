@@ -391,7 +391,6 @@ instagram.com##div:has(> span [aria-label="Like"][height="24"])
 instagram.com##div:has(> div > [aria-label="Repost"])
 instagram.com##*:style(scroll-snap-stop: none !important; scroll-snap-align: none !important;)
 instagram.com##div:has(> a[aria-label*=" reels"])
-instagram.com##[href="/reels/"]
 instagram.com##div[style*="max-width:630px"][style*="width:100%"] + div[class]
 instagram.com##div[style*="max-width: 630px; width: 100%;"] + div[class]
 instagram.com##[data-pagelet="story_tray"]

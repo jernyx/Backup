@@ -409,4 +409,5 @@ instagram.com##[aria-label="Reels navigation controls"]
 instagram.com##div[role="presentation"] section:has(span[style*="height: 18px"])
 instagram.com##div:has:(> a[aria-label*="reels"] img[alt*="profile picture"])
 instagram.com##div[role="presentation"] > div[style="cursor: pointer;"] a[href*="/explore/tags"][tabindex="0"]
+instargam.com##div:has:(> a[aria-label*="reels"] img[alt*="profile picture"])
 instagram.com##div[role="presentation"] > div[style="cursor: pointer;"] > div > div[dir="auto"]

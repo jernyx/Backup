@@ -410,3 +410,4 @@ instagram.com##div[role=button]:has-text(Note...)
 instagram.com##[aria-label="Reels navigation controls"]
 instagram.com##div[role="presentation"] section:has(span[style*="height: 18px"])
 instagram.com##div[role="presentation"] > div[style="cursor: pointer;"] a[href*="/explore/tags"][tabindex="0"]
+instagram.com##div[role="presentation"] > div[style="cursor: pointer;"] > div > div[dir="auto"]

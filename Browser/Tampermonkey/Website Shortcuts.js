@@ -39,44 +39,8 @@
         }, 0);
     }
 
-    /*********************************************************
-     * INSTAGRAM: INTERCEPT SPA NAVIGATIONS TO /
-     *********************************************************/
+
     if (location.hostname === 'www.instagram.com') {
-
-        const redirectToFollowing = () => {
-            window.location.replace('https://www.instagram.com/?variant=following');
-        };
-
-        // Intercept pushState and replaceState (SPA navigation)
-        const _pushState = history.pushState.bind(history);
-        const _replaceState = history.replaceState.bind(history);
-
-        const isRootNav = (url) =>
-            url === '/' || url === 'https://www.instagram.com/';
-
-        history.pushState = function(state, title, url) {
-            if (isRootNav(url)) {
-                redirectToFollowing();
-                return;
-            }
-            return _pushState(state, title, url);
-        };
-
-        history.replaceState = function(state, title, url) {
-            if (isRootNav(url)) {
-                redirectToFollowing();
-                return;
-            }
-            return _replaceState(state, title, url);
-        };
-
-        // Also catch popstate (back/forward button)
-        window.addEventListener('popstate', () => {
-            if (location.pathname === '/' && !location.search.includes('variant=following')) {
-                redirectToFollowing();
-            }
-        });
 
         /*********************************************************
          * FORCE INSTAGRAM TAB TITLE (DYNAMIC-SAFE)

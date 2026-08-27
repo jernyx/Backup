@@ -329,7 +329,6 @@ google.com##[data-count="9"]
 google.com##.related-question-pair
 google.com##div:has(> div > div > div > div > div > div[role="group"])
 google.com##div:has(> div[role="navigation"] > div > div[data-st-cnt="mode"] > div[data-zru="1"] > div > div > div > div > div > div > div[role="list"])
-google.com##div > div > div > div > div > div > div > div[data-lhcontainer="1"]
 google.com##div:has(> div > div > div > div > div > a[aria-label="View all videos"])
 google.com###appbar
 google.com##g-section-with-header

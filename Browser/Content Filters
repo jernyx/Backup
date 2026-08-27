@@ -182,13 +182,10 @@ discord.com##[class*="subtext"]
 discord.com##[class*="nowPlayingColumn"]
 discord.com##[class*="activity"][class*="card"][class*="biteSize"][class*="overlay"]
 discord.com##[class*="subText"]
-discord.com##[class*="scrollerBase"][class*="none"][class*="scroller" > div[class*="listItem"] > [class*="listItemWrapper"]
 discord.com##[class*="discoveryIcon"][class*="circleIconButton"]
 discord.com##div[class*="clickable"][class*="iconWrapper"]:nth-of-type(4)
 discord.com##[class*="scrollerBase"][class*="none"][class*="scroller"] > div[class*="listItem"]
-discord.com##[class*="footer"] > [class*="listItem" > [class*="listItemWrapper"]
 discord.com##[class*="nowPlayingColumn"]
-discord.com##[class*="textSm"][class*="container]
 discord.com##[aria-label="Show Member List"]
 discord.com##div[class*="listItem"]:has([aria-label="Download Apps"])
 discord.com##div[class*="listItem"]:has([aria-label="Discover"])
@@ -202,13 +199,11 @@ facebook.com##div:has(> [role="navigation"]) > [role="complementary"]
 facebook.com##li:has(a[href="/reel/?s=tab"])
 facebook.com##li:has(a[href="/gaming/play/?store_visit_source=gaming_tab"])
 facebook.com##body > div > div > div > div > div > div > div > div > div > div > div[role="main"] > div > div > div > div > div > div:nth-of-type(4) > div
-facebook.com##body > div > div > div > div > div > div > div > div > div > div > div[role="main"] > div > div > div > div > div > div:nth-of-type(3) > div
+facebook.com##body > div > div > div > div > div > div > div > div > div > div > div[role="main"] > div > div > div > div > div > div:nth-of-type(3) > div:has([href="/stories/create/"])
 facebook.com##div.displayed.m
 
 
 
-chatgpt.com###thread-bottom-container >  >
-chatgpt.com###page-header >  >  >
 chatgpt.com##[href="/images"]
 chatgpt.com##[class="block lg:hidden"]
 chatgpt.com##[class="hidden lg:block"]

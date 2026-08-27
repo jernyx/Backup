@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Website Shortcuts
 // @namespace    http://tampermonkey.net/
-// @version      1.9
+// @version      2
 // @match        https://discord.com/*
 // @match        https://www.youtube.com/*
 // @match        https://www.instagram.com/*

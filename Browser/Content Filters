@@ -325,6 +325,7 @@ lichess.org###friend_box
 google.com##div[role="contentinfo"]
 google.com##[role="search"] button
 google.com###iur
+google.com##div[data-iu="1"][style="position:relative"]:has(span[aria-level="2"][role="heading"])
 google.com##[data-count="9"]
 google.com##.related-question-pair
 google.com##div:has(> div > div > div > div > div > div[role="group"])

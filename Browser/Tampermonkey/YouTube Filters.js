@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         YouTube Filters
 // @namespace    http://tampermonkey.net/
-// @version      5.4
-// @description  Combines subscription filters and metadata duration injection into a single script.
+// @version      5.5
+// @description  Youtube Filters
 // @author       You
 // @match        *://*.youtube.com/*
 // @grant        none
@@ -391,6 +391,15 @@
 
                 const metadataLine = video.querySelector('#metadata-line');
                 if (!metadataLine) return;
+
+                // Remove any pre-existing stale duration spans before inserting.
+                // YouTube sometimes recycles DOM nodes with leftover duration values
+                // from previously rendered items, causing the wrong time to display.
+                metadataLine.querySelectorAll('.inline-metadata-item').forEach(span => {
+                    if (/^\d{1,2}:\d{2}(:\d{2})?$/.test(span.textContent.trim())) {
+                        span.remove();
+                    }
+                });
 
                 const metaItems = metadataLine.querySelectorAll('.inline-metadata-item');
                 if (metaItems.length === 0) return;
